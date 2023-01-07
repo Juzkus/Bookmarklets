@@ -1,13 +1,13 @@
 javascript:(function(){
 
-  let wooted = {}; 
+  window.wooted = {}; 
   
   setInterval(function(){ 
-    if (wooted[song._id] == true) {
+    if (window.wooted[song._id] == true) {
       return;
     } 
     else{ 
-      document.querySelector('.awesome-button').click(); wooted[song._id] = true; 
+      document.querySelector('.awesome-button').click(); window.wooted[song._id] = true; 
     }
   }, 1000);
 
