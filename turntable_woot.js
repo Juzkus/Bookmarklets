@@ -1,1 +1,1 @@
-javascript:(function(){  setInterval(function(){ ROOMMANAGER.startBopping(); }}, 1000);  })();
+javascript:(function(){  setInterval(function(){ ROOMMANAGER.startBopping(); }, 1000);  })();
